@@ -1,0 +1,51 @@
+{
+  "id": "1764432",
+  "name": "bcloud",
+  "font_family": "iconfont",
+  "css_prefix_text": "custom-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "145484",
+      "name": "标签",
+      "font_class": "biaoqian",
+      "unicode": "e65b",
+      "unicode_decimal": 58971
+    },
+    {
+      "icon_id": "1240021",
+      "name": "icon_tool",
+      "font_class": "gongju",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "1766474",
+      "name": "符号-单行输入框",
+      "font_class": "danhangshurukuang",
+      "unicode": "e692",
+      "unicode_decimal": 59026
+    },
+    {
+      "icon_id": "5203323",
+      "name": "栅格",
+      "font_class": "zhage",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "5881145",
+      "name": "多行文本",
+      "font_class": "duohangwenben",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "7533277",
+      "name": "密码",
+      "font_class": "mima",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    }
+  ]
+}
