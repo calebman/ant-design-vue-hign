@@ -11,7 +11,8 @@
     "lib": "vue-cli-service build --target lib --name AntDesignVueHign --dest lib packages/index.js",
     "prepublishOnly": "npm run lib",
     "docs:dev": "nodemon --ext md,vue,js --watch .vuepress --watch . --exec vuepress dev docs --no-cache --debug",
-    "docs:build": "vuepress build docs && anywhere -d docs/.vuepress/dist/"
+    "docs:build": "vuepress build docs",
+    "docs:build-preview": "vuepress build docs && anywhere -d docs/.vuepress/dist/"
   },
   "repository": {
     "type": "git",
