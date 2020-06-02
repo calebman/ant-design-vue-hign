@@ -1,0 +1,26 @@
+name: Deploy plugin docs
+on:
+  push:
+    branches:    
+      - master
+jobs:
+  build-and-deploy-docs:
+    runs-on: ubuntu-18.04
+    steps: 
+      - uses: actions/checkout@master
+
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+
+      - name: Build with vuepress
+        run: |
+          yarn --frozen-lockfile
+          yarn docs:build
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: docs/.vuepress/dist/ant-design-vue-hign/

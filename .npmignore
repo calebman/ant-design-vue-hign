@@ -1,0 +1,10 @@
+.commitlintrc.js
+.editorconfig
+.eslintrc.js
+vue.config.js
+babel.config.js
+
+docs/.vuepress
+/examples
+
+*.sh
